@@ -3,7 +3,7 @@
 
   "Description" : "AWS CloudFormation Sample Template AutoScalingKeepAtNSample: Create a load balanced, Auto Scaled sample website. This example creates an Auto Scaling group behind a load balancer with a simple health check. **WARNING** This template creates one or more Amazon EC2 instances and an Application Load Balancer. You will be billed for the AWS resources used if you create a stack from this template.",
 
-  "Parameter" : {
+  "Parameters" : {
     "VpcId" : {
       "Type" : "AWS::EC2::VPC::Id",
       "Description" : "VpcId of your existing Virtual Private Cloud (VPC)",
